@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.5rem;
+    border-block-end: 1px solid var(--gray10);
+}
+.header-primary{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.header-secondary{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}

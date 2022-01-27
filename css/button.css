@@ -1,0 +1,60 @@
+.button{
+    padding-inline:1rem;
+    padding-block:0.5rem ;
+    display: inline-block;
+    font: var(--button-button);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: currentColor;
+    background-color: transparent;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    color: var(--gray50);
+    outline: none;
+}
+.button:active{
+    transform: scale(0.9);
+}
+.button.is-primary{
+    background-color: var(--blue10);
+    color: var(--white);
+}
+.button.is-secondary{
+    border: 1px solid var(--gray20);
+    color: var(--gray20);
+}
+.button.is-primary:hover,
+.button.is-primary:focus{
+    background-color: var(--blue30);
+    outline: none;
+}
+.button.is-rounded{
+    border-radius: 1.25rem;
+    background-color: var(--white);
+    color: var(--blue20);
+}
+.button.is-compact{
+    border-radius: 50%;
+    padding: .5rem;
+    background-color: var(--white);
+}
+.button.is-shadowed{
+    box-shadow: 0 10px 24px 0 rgb(82 91 115 / 12%);
+}
+.button img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.button img,
+.button span{
+    vertical-align: middle;
+}
+.button.is-secondary:hover,
+.button.is-secondary:focus,
+.button.button.is-rounded:hover,
+.button.button.is-rounded:focus,
+.button.button.is-compact:hover,
+.button.button.is-compact:focus{
+    background-color: var(--gray10);
+}

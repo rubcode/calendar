@@ -1,0 +1,8 @@
+.taskCell{
+    border-inline-start: 1px solid currentColor;
+    border-block-end: 1px solid currentColor;
+    padding: 0.25rem;
+}
+.taskCell:nth-child(8n){
+    /*border-inline-end: 1px solid currentColor;*/
+}
